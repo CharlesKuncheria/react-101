@@ -1,8 +1,7 @@
-'use strict';
+var element = React.createElement(
+  'h1',
+  null,
+  'hello, world!'
+);
 
-ReactDOM.render(React.createElement(
-    'h1',
-    null,
-    'Hello, world'
-), document.getElementById('root'));
-  
+ReactDOM.render(element, document.getElementById('root'));
