@@ -1,8 +1,8 @@
 # react-101
 Journey of understanding basics of react
 
-Using an express server to host static assets over http.
+Introducing JSX
 
-No JSX. 
-No transpilers.
-No hot-reloading.
+Used a transpiler to convert jsx to js.
+
+npm run transpile - see the app.js generated in public folder from src folder.
