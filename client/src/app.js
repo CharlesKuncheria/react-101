@@ -1,3 +1,12 @@
-var element = <h1>hello, world!</h1>
+class HelloMessage extends React.Component {
+    render() {
+      return (
+        <div>
+          Hello {this.props.name}
+        </div>
+      );
+    }
+}
+  
 
-ReactDOM.render(element, document.getElementById('root'));
+ReactDOM.render(<HelloMessage name="OWA Team" />, document.getElementById('root'));
