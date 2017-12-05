@@ -1,0 +1,23 @@
+{
+  "name": "react-101",
+  "version": "1.0.0",
+  "description": "sample react code",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlesKuncheria/react-101.git"
+  },
+  "author": "CK <charles.kuncheria@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CharlesKuncheria/react-101/issues"
+  },
+  "homepage": "https://github.com/CharlesKuncheria/react-101#readme",
+  "dependencies": {
+    "express": "4.16.2"
+  }
+}
